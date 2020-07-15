@@ -1,17 +1,73 @@
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 109px;
+body{
+  background: #fff;
+  color: black;
+  font-family: arial,sans-serif;
+  height: 100%;
+  margin: 0;
+    margin-top: 0; 
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  font: normal;
+  font-size: 13px; 
 }
-#gsearch{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 109px;    
+.navbar{
+  flex-basis: auto;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center; 
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+a:hover{
+  text-decoration: underline;
+}
+.navspacer{
+  flex: 1 1 auto;
+}
+a {
+  padding: 16px;
+  text-decoration: none;
+  color: darkslategray;
+}
+.gappsbutton {
+  background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-size: 528px 68px;;
+  background-position: -132px -38px;
+  opacity: .55;
+}
+.sign-in {
+  border: 1px solid #4285f4;
+  display: inline-block;
+  background-image: -webkit-linear-gradient(top,#4387fd,  #4683ea);
+   height: 32px;
+   border-radius: 2px;
+   font-weight: bold;
+   color: #fff;
+  line-height: 28px;
+  margin: 10px;
+  border-color: transparent;
+  outline: none;
+  cursor: pointer; 
+}
+.glogo {
+    display: block;
+    margin: auto;
+    margin-top: 128px;
+}
+form {
+    margin: auto;
+    width: 582px;
+    padding-top: 16px;
+    padding-inline-start: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+input {
+    height: 40px;
+    width: 561px;
+    border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        background-color: transparent;
+    outline: none;
+    text-indent: 30px;
 }
